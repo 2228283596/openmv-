@@ -1,0 +1,7 @@
+main：判断workmode的值调用各个子功能
+ColorRecognition：包含颜色识别功能 可返回识别的颜色是什么颜色（mt摄像头无此功能）
+DotFollowing：包含识别特定颜色色块功能 可通过调整阈值识别不同色块
+LineFollowing：包含识别黑线功能（可通过调整阈值改变识别线的颜色）
+Message：和单片机的通信协议
+Photography：包含拍照功能
+QRcode：：包含识别二维码功能
